@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Constants.deviceId` API in a React Native application.  The `deviceId` sometimes returns `undefined` or null instead of a unique device identifier. This inconsistency leads to unexpected behavior in features relying on unique device identification, such as user authentication or data synchronization.
